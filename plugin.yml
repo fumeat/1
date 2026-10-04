@@ -1,0 +1,23 @@
+name: ColorSync
+version: 1.0.0
+main: dev.colorsync.ColorSync
+api-version: '26.3'
+description: One color for chat name, tab list, nametag and locator bar, plus local/global chat.
+commands:
+  color:
+    description: Set your color (hex, preset or reset)
+    usage: /color <#hex|preset|reset> [player]
+    aliases: [namecolor]
+permissions:
+  colorsync.use:
+    description: Change your own color
+    default: true
+  colorsync.others:
+    description: Change other players' colors
+    default: op
+  colorsync.spy:
+    description: See all local chat messages
+    default: op
+  colorsync.reload:
+    description: Reload the config
+    default: op

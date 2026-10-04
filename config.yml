@@ -1,0 +1,30 @@
+# Цвет ника для тех, кто ещё не выбирал свой (в чате)
+default-color: "#FFFFFF"
+
+# Что синхронизировать с цветом игрока
+tab:
+  enabled: true        # список игроков (Tab)
+nametag:
+  enabled: true        # ник над головой (только 16 стандартных цветов, берётся ближайший)
+waypoint:
+  enabled: true        # точка на локатор-баре (команда /waypoint)
+
+chat:
+  enabled: true
+  local-radius: 100          # радиус локального чата, блоков
+  global-prefix: "!"         # сообщение с этого символа идёт всем
+  local-tag: "<dark_gray>[<green>L</green>]</dark_gray> "
+  global-tag: "<dark_gray>[<gold>G</gold>]</dark_gray> "
+  separator: " <gray>»</gray> "
+  nobody-heard: "<gray>Тебя никто не слышит. Начни сообщение с ! чтобы написать всем.</gray>"
+
+# Быстрые названия цветов: /color blue
+presets:
+  blue: "#7EC8F2"
+  mint: "#7DD3C0"
+  lilac: "#C3A6E8"
+  purple: "#A855F7"
+  coral: "#E8A598"
+  lime: "#B5D99C"
+  amber: "#F2C078"
+  gray: "#B8C4D6"
